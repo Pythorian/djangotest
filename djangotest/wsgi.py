@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/1.6/howto/deployment/wsgi/
 """
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ssaude.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangotest.settings")
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()

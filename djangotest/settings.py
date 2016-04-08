@@ -48,9 +48,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'ssaude.urls'
+ROOT_URLCONF = 'djangotest.urls'
 
-WSGI_APPLICATION = 'ssaude.wsgi.application'
+WSGI_APPLICATION = 'djangotest.wsgi.application'
 
 
 # Database
